@@ -1,0 +1,5 @@
+﻿<RCC>
+    <qresource prefix="/FastCreator">
+        <file>Resources/logo.ico</file>
+    </qresource>
+</RCC>

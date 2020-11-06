@@ -1,4 +1,4 @@
-@echo off
+﻿@echo off
 rem *****************************************************************
 rem desc: copy project-files from build to bin
 rem note: no blank lines before and after brackets

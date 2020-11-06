@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.852
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ToolTemplate", "code\ToolTemplate\ToolTemplate.vcxproj", "{7C912615-EBB8-4803-B7DD-E9038EF3D99A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FastCreator", "code\FastCreator\FastCreator.vcxproj", "{835E95E3-3DA4-4E5E-9885-0988CA28DF00}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -15,6 +17,10 @@ Global
 		{7C912615-EBB8-4803-B7DD-E9038EF3D99A}.Debug|x64.Build.0 = Debug|x64
 		{7C912615-EBB8-4803-B7DD-E9038EF3D99A}.Release|x64.ActiveCfg = Release|x64
 		{7C912615-EBB8-4803-B7DD-E9038EF3D99A}.Release|x64.Build.0 = Release|x64
+		{835E95E3-3DA4-4E5E-9885-0988CA28DF00}.Debug|x64.ActiveCfg = Debug|x64
+		{835E95E3-3DA4-4E5E-9885-0988CA28DF00}.Debug|x64.Build.0 = Debug|x64
+		{835E95E3-3DA4-4E5E-9885-0988CA28DF00}.Release|x64.ActiveCfg = Release|x64
+		{835E95E3-3DA4-4E5E-9885-0988CA28DF00}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -4,5 +4,6 @@ build
 
 # .user file type
 *.user
+*.pdb
 
 
