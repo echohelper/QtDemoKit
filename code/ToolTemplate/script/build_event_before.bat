@@ -29,8 +29,8 @@ rem copy runtime files
 ::	del /Q bin\%ProjectName%.pdb
 ::) else (
 ::	xcopy /Y /F /E /R build\%SolutionOutput%\%ProjectName%.exe bin\
-::	xcopy /Y /F /E /R build\%SolutionOutput%\%ProjectName%.pdb bin\
-::	xcopy /Y /F /E /R build\%SolutionOutput%\%ProjectName%.pdb pdb\
+::	xcopy /Y /F /E /R build\output\%SolutionOutput%\%ProjectName%.pdb bin\
+::	xcopy /Y /F /E /R build\output\%SolutionOutput%\%ProjectName%.pdb build\pdb\%SolutionOutput%\
 ::)
 
 rem debug

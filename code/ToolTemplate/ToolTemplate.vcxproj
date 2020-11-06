@@ -43,13 +43,13 @@
     <Import Project="$(QtMsBuild)\qt_defaults.props" />
   </ImportGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
-    <OutDir>$(SolutionDir)build\$(SolutionName)_$(Configuration)_$(PlatformTarget)\</OutDir>
-    <IntDir>$(SolutionDir)middle\$(ProjectName)_$(Configuration)_$(PlatformTarget)\</IntDir>
+    <OutDir>$(SolutionDir)build\output\$(SolutionName)_$(Configuration)_$(PlatformTarget)\</OutDir>
+    <IntDir>$(SolutionDir)build\middle\$(ProjectName)_$(Configuration)_$(PlatformTarget)\</IntDir>
     <TargetExt>$(TargetExt)</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
-    <OutDir>$(SolutionDir)build\$(SolutionName)_$(Configuration)_$(PlatformTarget)\</OutDir>
-    <IntDir>$(SolutionDir)middle\$(ProjectName)_$(Configuration)_$(PlatformTarget)\</IntDir>
+    <OutDir>$(SolutionDir)build\output\$(SolutionName)_$(Configuration)_$(PlatformTarget)\</OutDir>
+    <IntDir>$(SolutionDir)build\middle\$(ProjectName)_$(Configuration)_$(PlatformTarget)\</IntDir>
     <TargetExt>$(TargetExt)</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="QtSettings">
@@ -94,11 +94,11 @@
     </QtMoc>
     <QtUic>
       <ExecutionDescription>Uic'ing %(Identity)...</ExecutionDescription>
-      <OutputFile>$(SolutionDir)middle\$(ProjectName)_$(Configuration)_$(PlatformTarget)\uic\ui_%(Filename).h</OutputFile>
+      <OutputFile>$(SolutionDir)build\middle\$(ProjectName)_$(Configuration)_$(PlatformTarget)\uic\ui_%(Filename).h</OutputFile>
     </QtUic>
     <QtRcc>
       <ExecutionDescription>Rcc'ing %(Identity)...</ExecutionDescription>
-      <OutputFile>$(SolutionDir)middle\$(ProjectName)_$(Configuration)_$(PlatformTarget)\rcc\qrc_%(Filename).cpp</OutputFile>
+      <OutputFile>$(SolutionDir)build\middle\$(ProjectName)_$(Configuration)_$(PlatformTarget)\rcc\qrc_%(Filename).cpp</OutputFile>
     </QtRcc>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'" Label="Configuration">
@@ -130,11 +130,11 @@
     </QtMoc>
     <QtUic>
       <ExecutionDescription>Uic'ing %(Identity)...</ExecutionDescription>
-      <OutputFile>$(SolutionDir)middle\$(ProjectName)_$(Configuration)_$(PlatformTarget)\uic\ui_%(Filename).h</OutputFile>
+      <OutputFile>$(SolutionDir)build\middle\$(ProjectName)_$(Configuration)_$(PlatformTarget)\uic\ui_%(Filename).h</OutputFile>
     </QtUic>
     <QtRcc>
       <ExecutionDescription>Rcc'ing %(Identity)...</ExecutionDescription>
-      <OutputFile>$(SolutionDir)middle\$(ProjectName)_$(Configuration)_$(PlatformTarget)\rcc\qrc_%(Filename).cpp</OutputFile>
+      <OutputFile>$(SolutionDir)build\middle\$(ProjectName)_$(Configuration)_$(PlatformTarget)\rcc\qrc_%(Filename).cpp</OutputFile>
     </QtRcc>
   </ItemDefinitionGroup>
   <ItemGroup>
@@ -152,7 +152,7 @@
   </ImportGroup>
   <ProjectExtensions>
     <VisualStudio>
-      <UserProperties MocDir="$(IntDir)\moc\$(ConfigurationName)" UicDir="$(SolutionDir)middle\$(ProjectName)_$(Configuration)_$(PlatformTarget)\uic" RccDir="$(SolutionDir)middle\$(ProjectName)_$(Configuration)_$(PlatformTarget)\qrc" lupdateOptions="" lupdateOnBuild="0" lreleaseOptions="" Qt5Version_x0020_x64="$(DefaultQtVersion)" MocOptions="" />
+      <UserProperties MocDir="$(IntDir)\moc\$(ConfigurationName)" UicDir="$(SolutionDir)build\middle\$(ProjectName)_$(Configuration)_$(PlatformTarget)\uic" RccDir="$(SolutionDir)build\middle\$(ProjectName)_$(Configuration)_$(PlatformTarget)\qrc" lupdateOptions="" lupdateOnBuild="0" lreleaseOptions="" Qt5Version_x0020_x64="$(DefaultQtVersion)" MocOptions="" />
     </VisualStudio>
   </ProjectExtensions>
 </Project>
