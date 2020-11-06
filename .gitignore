@@ -1,0 +1,10 @@
+# dirctory
+.vs
+build
+middle
+pdb
+
+# .user file type
+*.user
+
+
