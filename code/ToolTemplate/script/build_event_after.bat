@@ -1,4 +1,4 @@
-@echo off
+::@echo off
 rem *****************************************************************
 rem desc: copy project-files from build to bin
 rem note: no blank lines before and after brackets
@@ -26,6 +26,7 @@ cd ..\..
 rem copy runtime files
 if "%1" == "Release" (
 	xcopy /Y /F /E /R build\%SolutionOutput%\%ProjectName%.exe bin\
+	del /Q bin\%ProjectName%.pdb
 ) else (
 	xcopy /Y /F /E /R build\%SolutionOutput%\%ProjectName%.exe bin\
 	xcopy /Y /F /E /R build\%SolutionOutput%\%ProjectName%.pdb bin\
