@@ -1,0 +1,5 @@
+﻿<RCC>
+    <qresource prefix="/SisRecevice">
+        <file>Resources/logo.ico</file>
+    </qresource>
+</RCC>
