@@ -1,0 +1,5 @@
+﻿<RCC>
+    <qresource prefix="/UuidHelper">
+        <file>Resources/logo.ico</file>
+    </qresource>
+</RCC>
