@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SisSend", "code\SisSend\Sis
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SisRecevice", "code\SisRecevice\SisRecevice.vcxproj", "{48B79BE2-6BAE-4573-AC7E-D9EBDECE48A3}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UuidHelper", "code\UuidHelper\UuidHelper.vcxproj", "{B80A5078-DB77-4FF3-AE8D-748A66C0A78C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -33,6 +35,10 @@ Global
 		{48B79BE2-6BAE-4573-AC7E-D9EBDECE48A3}.Debug|x64.Build.0 = Debug|x64
 		{48B79BE2-6BAE-4573-AC7E-D9EBDECE48A3}.Release|x64.ActiveCfg = Release|x64
 		{48B79BE2-6BAE-4573-AC7E-D9EBDECE48A3}.Release|x64.Build.0 = Release|x64
+		{B80A5078-DB77-4FF3-AE8D-748A66C0A78C}.Debug|x64.ActiveCfg = Debug|x64
+		{B80A5078-DB77-4FF3-AE8D-748A66C0A78C}.Debug|x64.Build.0 = Debug|x64
+		{B80A5078-DB77-4FF3-AE8D-748A66C0A78C}.Release|x64.ActiveCfg = Release|x64
+		{B80A5078-DB77-4FF3-AE8D-748A66C0A78C}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

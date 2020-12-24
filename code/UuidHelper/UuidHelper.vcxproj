@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{7C912615-EBB8-4803-B7DD-E9038EF3D99A}</ProjectGuid>
+    <ProjectGuid>{B80A5078-DB77-4FF3-AE8D-748A66C0A78C}</ProjectGuid>
     <Keyword>QtVS_v303</Keyword>
     <QtMsBuild Condition="'$(QtMsBuild)'=='' OR !Exists('$(QtMsBuild)\qt.targets')">$(MSBuildProjectDirectory)\QtMsBuild</QtMsBuild>
   </PropertyGroup>
@@ -46,11 +46,13 @@
     <OutDir>$(SolutionDir)build\output\$(SolutionName)_$(Configuration)_$(PlatformTarget)\</OutDir>
     <IntDir>$(SolutionDir)build\middle\$(ProjectName)_$(Configuration)_$(PlatformTarget)\</IntDir>
     <TargetExt>$(TargetExt)</TargetExt>
+    <LocalDebuggerCommand>$(SolutionDir)bin\$(TargetFileName)</LocalDebuggerCommand>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
     <OutDir>$(SolutionDir)build\output\$(SolutionName)_$(Configuration)_$(PlatformTarget)\</OutDir>
     <IntDir>$(SolutionDir)build\middle\$(ProjectName)_$(Configuration)_$(PlatformTarget)\</IntDir>
     <TargetExt>$(TargetExt)</TargetExt>
+    <LocalDebuggerCommand>$(SolutionDir)bin\$(TargetFileName)</LocalDebuggerCommand>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="QtSettings">
     <QtModules>core;gui;widgets</QtModules>

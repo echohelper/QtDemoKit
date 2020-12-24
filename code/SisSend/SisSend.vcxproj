@@ -46,11 +46,13 @@
     <OutDir>$(SolutionDir)build\output\$(SolutionName)_$(Configuration)_$(PlatformTarget)\</OutDir>
     <IntDir>$(SolutionDir)build\middle\$(ProjectName)_$(Configuration)_$(PlatformTarget)\</IntDir>
     <TargetExt>$(TargetExt)</TargetExt>
+    <LocalDebuggerCommand>$(SolutionDir)bin\$(TargetFileName)</LocalDebuggerCommand>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
     <OutDir>$(SolutionDir)build\output\$(SolutionName)_$(Configuration)_$(PlatformTarget)\</OutDir>
     <IntDir>$(SolutionDir)build\middle\$(ProjectName)_$(Configuration)_$(PlatformTarget)\</IntDir>
     <TargetExt>$(TargetExt)</TargetExt>
+    <LocalDebuggerCommand>$(SolutionDir)bin\$(TargetFileName)</LocalDebuggerCommand>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="QtSettings">
     <QtModules>core;gui;widgets</QtModules>
