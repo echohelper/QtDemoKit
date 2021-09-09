@@ -2,5 +2,5 @@
 Qt demo project.
 
 ## Project Desc：
-record try for demo
+record and try for demo
 
