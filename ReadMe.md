@@ -1,4 +1,4 @@
-# QtDemoHelper
+# QtDemoKit
 Qt demo project.
 
 ## Project Desc：
